@@ -1,5 +1,5 @@
 # RoundTextProgressBar
-a text in the center of progress bar
+圆形的progressbar 可在中间设置文字、进度百分比等
 
 ![](roundprogressbar.png)
 

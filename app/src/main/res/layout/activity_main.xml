@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.custom.roundtextprogressbar.MainActivity">
+
+    <custom.RoundProgressBar
+        android:id="@+id/pb_driver_score"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:padding="16dp"
+        app:backgroundColor="@color/color_E5E5E5"
+        app:currentProgress="0"
+        app:fromDegree="-90"
+        app:progressColor="@color/colorAccent"
+        app:progressTextSize="10"
+        app:progressWidth="10" />
+
+</android.support.constraint.ConstraintLayout>

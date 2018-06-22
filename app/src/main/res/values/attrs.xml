@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RoundProgressBar">
+        <attr name="progressColor" format="color" />
+        <attr name="backgroundColor" format="color" />
+        <attr name="currentProgress" format="integer" />
+        <attr name="fromDegree" format="integer" />
+        <attr name="progressWidth" format="integer" />
+        <attr name="progressTextSize" format="integer" />
+    </declare-styleable>
+</resources>

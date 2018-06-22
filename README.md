@@ -1,6 +1,9 @@
 # RoundTextProgressBar
-the text in the center of progress bar
+a text in the center of progress bar
+
 ![](roundprogressbar.png)
+
+使用：
 
     <custom.RoundProgressBar
         android:id="@+id/pb_driver_score"
@@ -15,4 +18,9 @@ the text in the center of progress bar
         app:progressColor="@color/colorAccent"
         app:progressTextSize="10"
         app:progressWidth="10" />
+
+- backgroundcolor：背景颜色
+- currentprogress：当前进度
+- fromdegree：起始角度
+- progresscolor：进度条颜色
 
